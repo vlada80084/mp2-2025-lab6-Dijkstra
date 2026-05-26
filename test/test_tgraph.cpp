@@ -1,4 +1,4 @@
-#include <gtest/gtest.h>
+#include "gtest.h"
 #include "Array.h"
 #include "Queue.h"
 #include "Graph.h"
