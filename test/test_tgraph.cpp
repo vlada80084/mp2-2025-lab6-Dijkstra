@@ -200,8 +200,3 @@ TEST(Dijkstra, path_recovery_works) {
     EXPECT_EQ(path[0], 0);
     EXPECT_EQ(path[3], 3);
 }
-
-int main(int argc, char** argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
